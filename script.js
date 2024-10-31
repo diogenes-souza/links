@@ -14,8 +14,8 @@ function toggleMode() {
     //Substituir a imagem
     if(html.classList.contains('light')) {
         //se tiver light mode, adicionar a imagem light
-        img.setAttribute('src', './assets/diogenes-profile.png')
-        img.setAttribute('alt', 'Foto de Diógenes Souza com uniforme de trabalho e sorrindo')
+        img.setAttribute("src", "./assets/avatar-diogenes-dark2.png")
+        img.setAttribute("alt", "Foto de Diógenes Souza de óculos escuro")
     } else {
         //se tiver sem light mode, manter a imagem normal
         img.setAttribute('src', './assets/avatar-diogenes-dark2.png')
